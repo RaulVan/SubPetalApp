@@ -37,7 +37,7 @@ extension Account {
     
     func makeSonicClient() -> SubsonicClient {
         let client = SubsonicClient(baseURL: baseURL, username: username, password: password)
-        client.clientName = "SubPetal"
+        client.clientName = "SonicSphere"
         return client
     }
 }

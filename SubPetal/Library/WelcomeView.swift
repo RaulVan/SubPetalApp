@@ -20,7 +20,7 @@ class WelcomeView: UIView {
         
         imageView.image = UIImage(named: "logo_120x120_")
         
-        titleLabel.text = "Welcome to SubPetal"
+        titleLabel.text = "Welcome to SonicSphere"
         titleLabel.font = UIFont.preferredFont(forTextStyle: .headline)
         titleLabel.textAlignment = .center
         

@@ -104,7 +104,7 @@ class SideBarViewController: UIViewController {
 extension SideBarViewController {
     
     private func setupNavBar() {
-        navigationItem.title = "SubPetal"
+        navigationItem.title = "SonicSphere"
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
