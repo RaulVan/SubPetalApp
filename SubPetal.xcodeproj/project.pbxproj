@@ -270,7 +270,7 @@
 		6FF6362556D3A62A76377F1F /* Pods_SubPetal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubPetal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AEDFC5E8FC810D6968A6D1 /* Pods-SubPetal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubPetal.release.xcconfig"; path = "Target Support Files/Pods-SubPetal/Pods-SubPetal.release.xcconfig"; sourceTree = "<group>"; };
 		A5AAA9652AC1D1E300B6B9EB /* SubPetal copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SubPetal copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5AAA9662AC1D1E300B6B9EB /* SubPetal copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SubPetal copy-Info.plist"; path = "/Users/eleven/Github/SubPetalApp/SubPetal copy-Info.plist"; sourceTree = "<absolute>"; };
+		D686A10E2B19E427002AF91A /* SubPetal copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubPetal copy-Info.plist"; sourceTree = "<group>"; };
 		DB55FF1B49DDDF54172E4A78 /* Pods-SubPetal-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubPetal-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SubPetal-tvOS/Pods-SubPetal-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		FA135A132851F933003F9612 /* PlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
 		FA135A15285205E8003F9612 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
@@ -378,7 +378,7 @@
 				183ED0FF28464E3B00B7BADE /* Products */,
 				18472FBE284651D30063B575 /* Frameworks */,
 				5FA52F5433CFAF312FE20820 /* Pods */,
-				A5AAA9662AC1D1E300B6B9EB /* SubPetal copy-Info.plist */,
+				D686A10E2B19E427002AF91A /* SubPetal copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1174,8 +1174,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SubPetal/SubPetal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.7;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 96JX7MBRP6;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1193,9 +1194,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.music.SonicSphere;
 				PRODUCT_NAME = SonicSphere;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1212,8 +1214,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SubPetal/SubPetal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.7;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 96JX7MBRP6;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1231,9 +1234,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.music.SonicSphere;
 				PRODUCT_NAME = SonicSphere;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
